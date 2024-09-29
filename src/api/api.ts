@@ -3,7 +3,7 @@ import { decryptToken } from '../utils/cryptoUtils';
 import { getLocalStorageItem } from '../utils/localStorageUtil';
 
 const apiInstance = axios.create({
-  baseURL: "https://job-shop.bipingiri77.com.np/api/",
+  baseURL: "https://j-deploy.onrender.com/api/",
   headers: {
     'Content-Type': 'application/json',
   },
