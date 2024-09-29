@@ -214,27 +214,21 @@ const JobAction: React.FC = () => {
                 <option value="" disabled>
                   Select a location
                 </option>
-                <option value="averio">Averio</option>
-                <option value="beja">Beja</option>
-                <option value="braga">Braga</option>
-                <option value="braganca">Bragança</option>
-                <option value="porto">Porto</option>
-                <option value="lisbon">Lisbon</option>
-                <option value="coimbra">Coimbra</option>
-                <option value="setubal">Setúbal</option>
-                <option value="aveiro">Aveiro</option>
-                <option value="guimaraes">Guimarães</option>
-                <option value="faro">Faro</option>
-                <option value="viana-do-castelo">Viana do Castelo</option>
-                <option value="leiria">Leiria</option>
-                <option value="sintra">Sintra</option>
-                <option value="braga">Braga</option>
-                <option value="cascais">Cascais</option>
-                <option value="ponta-delgada">Ponta Delgada</option>
-                <option value="evora">Évora</option>
-                <option value="lagos">Lagos</option>
-                <option value="santarém">Santarém</option>
-                <option value="olhao">Olhão</option>
+                <option value="kathmandu">Kathmandu</option>
+                <option value="pokhara">Pokhara</option>
+                <option value="bhaktapur">Bhaktapur</option>
+                <option value="lalitpur">Lalitpur</option>
+                <option value="biratnagar">Biratnagar</option>
+                <option value="butwal">Butwal</option>
+                <option value="dhangadhi">Dhangadhi</option>
+                <option value="nepalgunj">Nepalgunj</option>
+                <option value="itahari">Itahari</option>
+                <option value="bharatpur">Bharatpur</option>
+                <option value="janakpur">Janakpur</option>
+                <option value="bharatpur">Bharatpur</option>
+                <option value="rajanpur">Rajanpur</option>
+                <option value="kailali">Kailali</option>
+                <option value="taplejung">Taplejung</option>
               </select>
               {errors.location && (
                 <span className="text-meta-1 text-xs mt-1">
