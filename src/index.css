@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add these styles to your CSS file */
+.transition-max-height {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+
+.transition-max-height.open {
+  max-height: 1000px; /* Set this to a value large enough to contain your content */
+}
+
+/* Add this CSS either in your component's CSS file or in a global stylesheet */
+@media print {
+  .no-print {
+    display: none;
+  }
+}
