@@ -181,14 +181,21 @@ const JobAction: React.FC = () => {
                 {...register('position', { required: 'Job Title is required' })}
               >
                 <option value="">Select job title</option>
-                <option value="chef">Chef</option>
-                <option value="sous_chef">Sous Chef</option>
-                <option value="helper">Helper</option>
-                <option value="apprentice">Apprentice</option>
+                <option value="software_developer">Software Developer</option>
+                <option value="frontend_developer">Frontend Developer</option>
+                <option value="backend_developer">Backend Developer</option>
+                <option value="full_stack_developer">
+                  Full Stack Developer
+                </option>
+                <option value="data_analyst">Data Analyst</option>
+                <option value="product_manager">Product Manager</option>
+                <option value="ux_ui_designer">UX/UI Designer</option>
+                <option value="system_administrator">
+                  System Administrator
+                </option>
+                <option value="technical_support">Technical Support</option>
+                <option value="quality_assurance">Quality Assurance</option>
                 <option value="others">Others (Specify)</option>
-                <option value="waiter">Waiter</option>
-                <option value="dishwasher">Dishwasher</option>
-                <option value="bartender">Bartender</option>
               </select>
               {errors.position && (
                 <span className="text-meta-1 text-xs mt-1">
